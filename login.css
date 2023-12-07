@@ -1,0 +1,96 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+main
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.hamburguer
+{
+    display: flex;
+    width: 500px;
+    height: 400px;  
+    background:  #F9F9F9;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h1
+{
+    max-width: 300px;
+    text-align: center;
+   
+}
+.caixa
+{
+    padding: 0px 10px;
+    display: flex;
+    width: 458px;
+    height: 49px;
+    border-radius: 20px;
+    border: 1px solid #6C6C6F;
+    background: #FFF;
+    background-image: url(Frame.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-align: start;
+}
+.caixa2
+{
+    padding: 0px 10px;
+    display: flex;
+    width: 458px;
+    height: 49px;
+    border-radius: 20px;
+    border: 1px solid #6C6C6F;
+    background: #FFF;
+    background-image: url(Frame2.jpg);
+    background-position: 10px;
+    background-repeat: no-repeat;
+}
+.imagem
+{
+    display: flex;
+    margin-top: 10px;
+    width: 617px;
+    height: 617px;
+    margin-right: 50px;
+    
+}
+.botão
+{
+    color: #FFF;
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 48px;
+    flex-shrink: 0;
+    background: rgba(13, 131, 240, 0.90);
+    font-size: 20px;
+}
+a
+{
+    color: #FFF;
+}
+p
+{
+    font-size: 16px;
+}
+.macarrao
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+}

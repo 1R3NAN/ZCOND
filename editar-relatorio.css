@@ -1,0 +1,264 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Livvic;
+  color: #6C6C6F;
+}
+body{
+  display: flex;
+  background: #b9b9b9;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0%;
+  height: 690px;
+  width: 1300px;
+  background-color: #f0f0f0  ;
+  border-radius: 20px;
+  fill: #FFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 690px;
+  background-color: #F9F9F9;
+  border-radius: 20px;
+  fill: #F9F9F9;
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+}
+.lista
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+li
+{
+  text-transform: uppercase;
+  color: #6C6C6F;
+  display: inline-block;
+  height: 23px;
+  margin: 3px;
+
+}
+img.icon
+{
+  height: 20px;
+  width: 20px;
+}
+a{
+  text-decoration: none;
+}
+.inicio{
+  display: flex;
+}
+.relatorio{
+  display: flex;
+}
+.tarefas{
+  display: flex;
+}
+.reservas{
+  display: flex;
+}
+.documentos{
+  display: flex;
+}
+.ocorrencias{
+  display: flex;
+}
+.registro{
+  display: flex;
+}
+.condominiu{
+  display: flex;
+}
+.conteudo-2{
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+
+  
+}
+.condominios{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  background-color: #F9F9F9;
+  fill: #F9F9F9;
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 10px;
+  height: 70px;
+  
+}
+.condominios2{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  background-color: #F9F9F9;
+  fill: #F9F9F9;
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 10px;
+  height: 70px;
+  
+}
+.predio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.texto2{
+  display: flex;
+  flex-direction: column;
+
+}
+input#update.botao{
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  background-color:rgba(13, 131, 240, 0.90);
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 85px;
+  height: 50px;
+  padding-left: 20px;
+}
+input#update.botao:hover{
+  opacity: 0.8;
+}
+.conteudo-3{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+height: 615px;
+width: 500px;
+background-color: #F9F9F9;
+margin-left: 170px;
+margin-top: 20px;
+filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+
+}
+h1{
+  color: #2A284F;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Livvic;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 80% */
+text-transform: uppercase;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+
+}
+.titulo{
+  padding-left: 5 px;
+  color: #6C6C6F;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  fill: #FFF;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}
+label{
+    font-size: 15px;
+    color: #6C6C6F;
+    margin-bottom: 5px;
+}
+.info{
+  padding-left: 5 px;
+  color: #6C6C6F;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 350px;
+  border: none;
+  fill: #FFF;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+#ata{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.exibir{
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  background-color: rgba(13, 131, 240, 0.90);
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 85px;
+  height: 50px;
+  padding-left: 20px;
+}
+.exibir:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: Livvic;
+  src: url(Livvic/Livvic-SemiBold.ttf);
+}

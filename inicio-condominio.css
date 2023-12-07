@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Livvic;
+    color: #6C6C6F
+}
+body{
+    display: flex;
+    background: #b9b9b9;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 0%;
+    height: 690px;
+    width: 1300px;
+    background-color: #f0f0f0  ;
+    border-radius: 20px;
+    fill: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 690px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    fill: #F9F9F9;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+}
+.lista
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+li
+{
+    text-transform: uppercase;
+    color: #6C6C6F;
+    display: inline-block;
+    height: 23px;
+    margin: 3px;
+
+}
+img.icon
+{
+    height: 20px;
+    width: 20px;
+}
+a{
+    text-decoration: none;
+}
+.inicio{
+    display: flex;
+}
+.relatorio{
+    display: flex;
+}
+.tarefas{
+    display: flex;
+}
+.reservas{
+    display: flex;
+}
+.documentos{
+    display: flex;
+}
+.ocorrencias{
+    display: flex;
+}
+.registro{
+    display: flex;
+}
+.condominiu{
+    display: flex;
+}
+
+.conteudo-1{
+    display: flex;
+    flex-direction: column;
+}
+.perfil{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 500px;
+    background-color: #F9F9F9;
+    fill: #F9F9F9;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.conteudo-2{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+  
+    
+}
+.condominios{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: #F9F9F9;
+    fill: #F9F9F9;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    align-items: center;
+    padding-right: 10px;
+    height: 70px;
+}
+.predio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.texto2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+input#submit.botao{
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    background-color:rgba(13, 131, 240, 0.90);
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 85px;
+    height: 50px;
+    padding-left: 20px;
+}
+input#submit.botao:hover{
+    opacity: 0.8;
+}
+.conteudo-3{
+    display: flex;
+    flex-direction: column;
+}
+.condominios2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #F9F9F9;
+    fill: #F9F9F9;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    align-items: center;
+
+    height: 406px;
+}
+.predio2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.texto3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.zcond{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    height: 180px;
+    width: 460px;
+}
+.divs{
+    display: flex;
+    flex-direction: row;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    height: 400px;
+    width: 200px;
+    background-color: #F9F9F9;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    align-items: center;
+    text-align: end;
+}
+.div-2{
+display: flex;
+    flex-direction: column;
+    margin: 30px;
+    height: 400px;
+    width: 200px;
+    background-color: #F9F9F9;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    align-items: center;
+    text-align: end;
+}
+.entrar{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    background-color: rgba(13, 131, 240, 0.90);
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    padding-left: 20px;
+}
+.entrar:hover{
+    opacity: 0.8;
+}
+#ata{
+    display: flex;
+    flex-direction: column;
+
+  }  
+
+@font-face {
+    font-family: Livvic;
+    src: url(Livvic/Livvic-SemiBold.ttf);
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
